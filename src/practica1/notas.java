@@ -70,7 +70,7 @@ public class notas {
 		
 		//hasta aqui la tenemos calculada peor no la mostramos
 	}
-	public void Mostrar() {
+	public void Show() {
 		//print ln lo que hace es que al terminar el print baja la linea
 		System.out.println(" notas introducidas son:");
 		System.out.println(" nota1 = " + uf1);
@@ -110,7 +110,7 @@ public class notas {
 
 		fc.Calculonotas();
 		
-		fc.Mostrar();
+		fc.Show();
 		
 		fc.aprobado();
 		
